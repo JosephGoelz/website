@@ -17,9 +17,15 @@ namespace JosephGoelz
 
         public void Configure(IApplicationBuilder app)
         {
+            app.Use(async (context, next) =>
+            {
+                await context.Response.WriteAsync("Hello World! \n");
+                await next();
+            });
+
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World Again!");
             });
         }
     }
