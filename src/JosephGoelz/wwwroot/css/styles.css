@@ -1,0 +1,166 @@
+/*index.css*/
+
+@font-face {
+	font-family: 'rogue';
+	src: url('../images/rogue.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'urban';
+	src: url('../images/urban.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'greatescape';
+	src: url('../images/TheGreatEscape.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'chunky';
+	src: url('../images/chunky.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+html body {
+	margin:0;
+	padding:0;
+	background-image: url('../images/good_color.jpg');
+	background-attachment:fixed;
+	/*background-position: left top;  */
+	/*background-repeat: no-repeat; */
+	background-color:#484848;
+}
+
+div.display {
+	width:70%; 
+	/*background-color:#484848;*/
+	background-image:url('../images/white_to_gray.jpg');
+	left:12%;
+	font-size:142%; 
+	text-align:left;
+	position:relative;
+	top:120px;
+	z-index:0;
+}
+div.right{
+
+	float:right;
+	padding-right:50px;
+	padding-top:50px;
+}
+div.left{
+	float:left;
+}
+
+a:link {
+	font-family: 'chunky';
+	color:#2B5C58;
+	text-decoration:none;
+	display:block;
+	margin-bottom:3px;
+	padding:0 2px 2px 10px;
+	font-size: 110%;
+}
+a:hover {
+	color:#AA6F39;
+	text-decoration:underline;
+}
+
+div.name{
+
+	color:#FFFFFE;
+	/*background-color:#FFF;*/
+	font-family: 'urban';
+	text-align: center;
+	position: fixed;
+	left: 13%;
+	top:0;
+	z-index:2;
+	margin:0;
+	/*background-image:url('../images/texture_red.jpg');*/
+	}
+
+h1.title 
+{
+	color:#FEFEFE;
+	font-family: 'greatescape';
+	font-size: 300%;
+}
+
+div.nav 
+{
+	opacity: .95;
+	position:fixed;
+	min-height:20%;
+	border-radius: 20px;
+	width:12.5%; 
+	font-family:'subway';
+	color:#FFFFFF;
+	font-size:135%;
+	text-align:right;
+	right:20%;
+	z-index:1;
+	margin:0;
+}
+/*
+div.innernav {
+	padding:5px;
+}
+*/
+h4 {
+	width:85%;
+	color:#FFFFFD;
+	margin: 50px 0 20px 10px;
+ }
+
+
+img.css {
+	border:0;
+	width:50%; 
+	height:50%; 
+	margin-left: -30px;
+	margin-top: 130px;
+}
+
+
+p {
+	text-align:left;
+	color:#FFFFFB;
+	margin:0;
+	padding:10px 0 30px 20px;
+	font-family: 'georgia';
+}
+span{
+	font-weight: bold;
+}
+h1.display {
+	color:#26CBDF;
+	margin:0;
+	font-family: 'college';
+	font-size: 200%;}
+h2 {
+	width:30%;
+	color:#26CBDF;
+	margin:0;
+}
+	
+img {
+	padding: 10px;
+}
+	img.old {
+	float:right;
+	width:25%;
+	height:25%; 
+	margin-left:20px;
+	margin-bottom:40px;
+	box-shadow: 5px 7px 2.5px #282828;}
+ul {
+	list-style-image:url('ball.jpg'); 
+	font-size:90%; 
+	font-family:'subway';
+	margin:0;
+	padding:25px 0 0 60px;
+}

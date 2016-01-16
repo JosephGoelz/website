@@ -17,6 +17,7 @@ namespace JosephGoelz
 
         public void Configure(IApplicationBuilder app)
         {
+            /*
             app.Use(async (context, next) =>
             {
                 await context.Response.WriteAsync("Hello World! \n");
@@ -27,6 +28,7 @@ namespace JosephGoelz
             {
                 await context.Response.WriteAsync("Hello World Again!");
             });
+            */
         }
     }
 }
