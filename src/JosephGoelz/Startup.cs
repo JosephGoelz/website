@@ -23,6 +23,7 @@ namespace JosephGoelz
                     "{controller=Home}/{action=Index}/{id?}"));
 
             app.UseFileServer();
+
             /*
             app.Use(async (context, next) =>
             {
