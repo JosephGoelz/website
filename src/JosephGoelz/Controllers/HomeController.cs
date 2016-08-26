@@ -16,14 +16,21 @@ namespace JosephGoelz.Controllers
             return View();
         }
 
-        //public string Index()
-        //{
-        //    return "Test Test Test";
-        //}
+        public IActionResult Post(long id)
+        {
+            return View();
+        }
+
 
         public string Echo(string id)
         {
             return id;
         }
+
+        //public string Index()
+        //{
+        //    return "Test Test Test";
+        //}
+
     }
 }
