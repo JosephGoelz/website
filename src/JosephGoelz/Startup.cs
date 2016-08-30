@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Http;
+using Microsoft.AspNet.Mvc.Rendering;
 using Microsoft.Framework.DependencyInjection;
 
 namespace JosephGoelz
@@ -17,9 +18,15 @@ namespace JosephGoelz
 
         public void Configure(IApplicationBuilder app)
         {
+
+            /*
             app.Use(async (context, next) =>
             {
-                await context.Response.WriteAsync("Hello World! \n");
+                //if( context.Request.Value.StartsWith("/hello"))
+                //{
+                    await context.Response.WriteAsync("Hello World! \n");
+
+                //}
                 await next();
             });
 
@@ -27,6 +34,8 @@ namespace JosephGoelz
             {
                 await context.Response.WriteAsync("Hello World Again!");
             });
+
+            */
         }
     }
 }
